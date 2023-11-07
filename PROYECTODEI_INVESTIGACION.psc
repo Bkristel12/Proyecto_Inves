@@ -28,23 +28,23 @@ Funcion ejercicio1(0)
 FinFuncion
 
 Funcion ejercicio2(0)
-	//La asociación de vinicultores tiene como política fijar un precio inicial al kilo
-	//de uva, la cual se clasifica en tipos A y B, y además en tamaños 1 y 2.
-	//Cuando se realiza la venta del producto, ésta es de un solo tipo y tamaño, se
-	//requiere determinar cuánto recibirá un productor por la uva que entrega en un
+	//La asociaciÃ³n de vinicultores tiene como polÃ­tica fijar un precio inicial al kilo
+	//de uva, la cual se clasifica en tipos A y B, y ademÃ¡s en tamaÃ±os 1 y 2.
+	//Cuando se realiza la venta del producto, Ã©sta es de un solo tipo y tamaÃ±o, se
+	//requiere determinar cuÃ¡nto recibirÃ¡ un productor por la uva que entrega en un
 	//embarque, considerando lo siguiente:Si es de tipo A, se le cargan 20 al precio
-	//inicial cuando es de tamaño 1; y 30 si es de tamaño 2. Si es de tipo B, se rebajan
-	//30 cuando es de tamaño 1, y 50 cuando es de tamaño 2.
+	//inicial cuando es de tamaÃ±o 1; y 30 si es de tamaÃ±o 2. Si es de tipo B, se rebajan
+	//30 cuando es de tamaÃ±o 1, y 50 cuando es de tamaÃ±o 2.
 	//Realice un algoritmo para determinar la ganancia obtenida	
 	Escribir "*****fijar el precio inicial al kilo de uva**** "
 	definir  pFijo,tipoUva, precioTotal Como Real
 	Mostrar "ingrese precio por kilo"
 	leer pFijo
 	Mostrar  "ingrese tipo de Uva"
-	Mostrar "1) tipo A tamaño 1"
-	Mostrar "2) tipo A taño 2"
-	Mostrar "3) tipo B tamaño 1"
-	Mostrar "4) tipo B tamaño 2"
+	Mostrar "1) tipo A tamaÃ±o 1"
+	Mostrar "2) tipo A taÃ±o 2"
+	Mostrar "3) tipo B tamaÃ±o 1"
+	Mostrar "4) tipo B tamaÃ±o 2"
 	leer tipoUva
 	precioTotal= 0
 	definir suma, kilos Como real
@@ -72,7 +72,7 @@ Funcion ejercicio2(0)
 FinFuncion
 
 Funcion ejercicio3(0)
-	//Dado dos números obtener el residuo sin el operador mod, %
+	//Dado dos nÃºmeros obtener el residuo sin el operador mod, %
 	Escribir "*******obtener el residuo sin el operador mod***"
 	Definir n1,n2,n3 Como Entero
 	n1=0 ; n2=0; n3=0
@@ -86,17 +86,17 @@ Funcion ejercicio3(0)
 FinFuncion
 
 Funcion ejercicio4(0)
-	//El consultorio del Dr. Paez tiene como política cobrar la consulta con
-	//base en el número de cita, de la siguiente forma:
+	//El consultorio del Dr. Paez tiene como polÃ­tica cobrar la consulta con
+	//base en el nÃºmero de cita, de la siguiente forma:
 	//Las tres primeras citas a $200.00 c/u.
 	//Las siguientes dos citas a $150.00 c/u.
 	//Las tres siguientes citas a $100.00 c/u.
 	//Las restantes a $50.00 c/u, mientras dure el tratamiento.
 	//Se requiere un algoritmo para determinar:
-	//Cuánto pagará el paciente por la cita.
+	//CuÃ¡nto pagarÃ¡ el paciente por la cita.
 	//El monto de lo que ha pagado el paciente por el tratamiento.
-	//Para la solución de este problema se requiere saber qué número de cita se efectuará, con el
-	//cual se podrá determinar el costo que tendrá la consulta y cuánto se ha gastado en el
+	//Para la soluciÃ³n de este problema se requiere saber quÃ© nÃºmero de cita se efectuarÃ¡, con el
+	//cual se podrÃ¡ determinar el costo que tendrÃ¡ la consulta y cuÃ¡nto se ha gastado en el
 //	tratamiento.	
 	definir cita,i,precio Como Entero
 	Escribir " Bienvenidos al consultorio del Dr.Paez"
@@ -125,8 +125,8 @@ Funcion ejercicio4(0)
 FinFuncion
 
 Funcion ejercicio5(0)
-	//Escribir un algoritmo que lea cuatro números y determine si el numero 1
-	//es la mitad del número 2; Y si el numero 3 es divisor del numero4.
+	//Escribir un algoritmo que lea cuatro nÃºmeros y determine si el numero 1
+	//es la mitad del nÃºmero 2; Y si el numero 3 es divisor del numero4.
 	definir num1,num2,num3,num4 Como Entero
 	Escribir "ingrese cuatro (4) numeros"
 	leer num1,num2,num3,num4
@@ -140,15 +140,15 @@ Funcion ejercicio5(0)
 FinFuncion
 
 Funcion ejercicio6(0)
-	//El banco XYZ ha decidido aumentar el límite de crédito de las tarjetas de crédito
+	//El banco XYZ ha decidido aumentar el lÃ­mite de crÃ©dito de las tarjetas de crÃ©dito
 	//de sus clientes, para esto considera que:
-	//Si su cliente tiene tarjeta tipo 1, el aumento será del 25%.
-	//Si tiene tipo 2 el aumento será del 35%
-	//Si tiene tipo 3, el aumento será del 40%
-	//Para cualquier otro tipo será del 50%
-//	Se pide realizar un algoritmo que ayude al banco a determinar el nuevo límite
-//	de crédito que tendrá una persona en su tarjeta considerando que después
-	//del aumento de porcentaje se tendrá que subir $20 adicionales a todas las tarjetas
+	//Si su cliente tiene tarjeta tipo 1, el aumento serÃ¡ del 25%.
+	//Si tiene tipo 2 el aumento serÃ¡ del 35%
+	//Si tiene tipo 3, el aumento serÃ¡ del 40%
+	//Para cualquier otro tipo serÃ¡ del 50%
+//	Se pide realizar un algoritmo que ayude al banco a determinar el nuevo lÃ­mite
+//	de crÃ©dito que tendrÃ¡ una persona en su tarjeta considerando que despuÃ©s
+	//del aumento de porcentaje se tendrÃ¡ que subir $20 adicionales a todas las tarjetas
 	definir limite, tipoTarjeta, nuLim como Real
 	Mostrar  "ingrese tipo de tarjeta"
 	Mostrar "1) tipo 1"
@@ -187,7 +187,7 @@ Funcion ejercicio6(0)
 FinFuncion
 
 Funcion ejercicio7(0)
-	//Escribir un algoritmo que lea cuatro números y determine si el numero 1 es divisor del
+	//Escribir un algoritmo que lea cuatro nÃºmeros y determine si el numero 1 es divisor del
 	//numero3 Y si el numero 2 es el doble del numero4.	
 	definir N1,N2,N3,N4 Como Entero
 	Escribir "ingresar cuatros numeros"
@@ -206,15 +206,15 @@ Funcion ejercicio7(0)
 FinFuncion
 
 funcion ejercicio8(0)
-	//El banco POO ha decidido aumentar el límite de crédito de las tarjetas de crédito
+	//El banco POO ha decidido aumentar el lÃ­mite de crÃ©dito de las tarjetas de crÃ©dito
 	//de sus clientes, para esto considera que:
-	//Si su cliente tiene tarjeta tipo 1, el aumento será del $100 .
-	//Si tiene tipo 2 el aumento será del $200
-	//Si tiene tipo 3, el aumento será del $300
-	//Para cualquier otro tipo será del 500
-//	Realizar un algoritmo que ayude al banco a determinar el nuevo límite
-//	de crédito que tendrá una persona en su tarjeta considerando que
-	//después del aumento se tendrá que subir 10% adicionales a todas las tarjetas
+	//Si su cliente tiene tarjeta tipo 1, el aumento serÃ¡ del $100 .
+	//Si tiene tipo 2 el aumento serÃ¡ del $200
+	//Si tiene tipo 3, el aumento serÃ¡ del $300
+	//Para cualquier otro tipo serÃ¡ del 500
+//	Realizar un algoritmo que ayude al banco a determinar el nuevo lÃ­mite
+//	de crÃ©dito que tendrÃ¡ una persona en su tarjeta considerando que
+	//despuÃ©s del aumento se tendrÃ¡ que subir 10% adicionales a todas las tarjetas
 	definir limite, tipoTarjeta, nuLim como Real
 	Mostrar  "ingrese tipo de tarjeta"
 	Mostrar "1) tipo 1"
@@ -253,22 +253,22 @@ funcion ejercicio8(0)
 FinFuncion
 
 funcion ejercicio9(0)
-	//Pedir al usuario un número y mostrar si es negativo menor que -20, sino mostrar si es
-	//positivo par o impar múltiplo de 7.	
+	//Pedir al usuario un nÃºmero y mostrar si es negativo menor que -20, sino mostrar si es
+	//positivo par o impar mÃºltiplo de 7.	
 	Definir numer Como Real
-    Escribir "Ingrese un número:"
+    Escribir "Ingrese un nÃºmero:"
     Leer numer
     Si numer < -20 Entonces
-        Escribir "El número es negativo y menor que -20."
+        Escribir "El nÃºmero es negativo y menor que -20."
     Sino Si numer > 0 Entonces
 			Si numer % 2 = 0 Entonces
-				Escribir "El número es positivo y par."
+				Escribir "El nÃºmero es positivo y par."
 			Sino Si numer % 7 = 0 Entonces
-					Escribir "El número es positivo, impar y múltiplo de 7."
+					Escribir "El nÃºmero es positivo, impar y mÃºltiplo de 7."
 				Sino Si numer % 7 <> 0 Entonces
-						Escribir "El número es positivo e impar, pero no es múltiplo de 7."
+						Escribir "El nÃºmero es positivo e impar, pero no es mÃºltiplo de 7."
 					Sino
-						Escribir "El número es cero o negativo mayor que -20."
+						Escribir "El nÃºmero es cero o negativo mayor que -20."
 					FinSi
 				FinSi
 			FinSi
@@ -277,14 +277,14 @@ funcion ejercicio9(0)
 	Esperar Tecla	
 FinFuncion
 Funcion ejercicio10(0)
-	//La asociación de vinicultores tiene como política fijar un precio inicial al quintal de
-	//pitajaya, la cual se clasifica en tipos "Amarilla" y "Colorada", y además en tamaños 1 y 2.
-	//Cuando se realiza la venta del producto, ésta es de un solo tipo y tamaño, se requiere
-	//determinar cuánto recibirá un productor por la pitajaya que entrega en un embarque,
+	//La asociaciÃ³n de vinicultores tiene como polÃ­tica fijar un precio inicial al quintal de
+	//pitajaya, la cual se clasifica en tipos "Amarilla" y "Colorada", y ademÃ¡s en tamaÃ±os 1 y 2.
+	//Cuando se realiza la venta del producto, Ã©sta es de un solo tipo y tamaÃ±o, se requiere
+	//determinar cuÃ¡nto recibirÃ¡ un productor por la pitajaya que entrega en un embarque,
 	//considerando lo siguiente:
-	// Si es de tipo Amarilla, se le cargan $10 al precio inicial cuando es de tamaño 1; y 15% mas $5
-	//si es de tamaño 2
-	//Si es de tipo Colorada, se rebajan $20 cuando es de tamaño 1, y 20% cuando es de tamaño
+	// Si es de tipo Amarilla, se le cargan $10 al precio inicial cuando es de tamaÃ±o 1; y 15% mas $5
+	//si es de tamaÃ±o 2
+	//Si es de tipo Colorada, se rebajan $20 cuando es de tamaÃ±o 1, y 20% cuando es de tamaÃ±o
 	//2. Sea tipo Amarilla y Colorada se debe se aplicar un descuento del 5% y el 12% del IVA.
 	//Realice un algoritmo para determinar el precio de embarque
 	definir  p1,Cpitaha, precioTotal Como Real
@@ -357,21 +357,21 @@ Funcion ejercicio10(0)
 	Esperar Tecla	
 FinFuncion
 
-//11) Pedir al usuario un número y mostrar si es par menor que 10, sino mostrar si es negativo e 
+//11) Pedir al usuario un nÃºmero y mostrar si es par menor que 10, sino mostrar si es negativo e 
 //	impar o negativo divisible para 5.
 funcion ejercicios11(0)
 	definir num como entero
-    Escribir "Ingrese un número:"
+    Escribir "Ingrese un nÃºmero:"
     Leer num
 	
     Si num < 10 y num % 2 = 0 Entonces
-        Escribir "El número es par y menor que 10."
+        Escribir "El nÃºmero es par y menor que 10."
     Sino Si num < 0 y num % 2 <> 0 y num % 5 = 0 Entonces
-			Escribir "El número es negativo, impar y divisible por 5."
+			Escribir "El nÃºmero es negativo, impar y divisible por 5."
 		Sino Si num < 0 y num % 2 <> 0 Entonces
-				Escribir "El número es negativo e impar."
+				Escribir "El nÃºmero es negativo e impar."
 			Sino
-				Escribir "El número no cumple ninguna de las condiciones."
+				Escribir "El nÃºmero no cumple ninguna de las condiciones."
 			FinSi
 		FinSi
 	FinSi
@@ -379,14 +379,14 @@ funcion ejercicios11(0)
 FinFuncion
 
 funcion ejercicio12(0)
-	//) Fábricas "El cometa" produce artículos con claves (1, 2, 3, 4, 5 y 6). Se requiere un 
+	//) FÃ¡bricas "El cometa" produce artÃ­culos con claves (1, 2, 3, 4, 5 y 6). Se requiere un 
 	//algoritmo para calcular los precios de venta, para esto hay que considerar lo siguiente:
-	//Costo de producción = materia prima + mano de obra + gastos de fabricación.
-	//Precio de venta = costo de producción + 45 % de costo de producción.
+	//Costo de producciÃ³n = materia prima + mano de obra + gastos de fabricaciÃ³n.
+	//Precio de venta = costo de producciÃ³n + 45 % de costo de producciÃ³n.
 	//El costo de la mano de obra se obtiene de la siguiente forma: para los productos con clave 3 o 
 	//4 se carga 75 % del costo de la materia prima; para los que tienen clave 1 o 5 se carga 80 %, y 
 	//para los que tienen clave 2 o 6, 85 %.
-	//Para calcular el gasto de fabricación se considera que, si el artículo que se va a producir tiene 
+	//Para calcular el gasto de fabricaciÃ³n se considera que, si el artÃ­culo que se va a producir tiene 
 	//claves 2 o 5, este gasto representa 30 % sobre el costo de la materia prima; si las claves son 3 o 
 	//6, representa 35 %; si las claves son 1 o 4, representa 28 %. La materia prima tiene el mismo 
 	//costo para cualquier clave.
@@ -439,7 +439,7 @@ funcion ejercicio12(0)
 FinFuncion
 
 funcion ejercicio13(0)
-	// Dado un número entero N, calcular e informar al usuario cuántos dígitos tiene dicho número.
+	// Dado un nÃºmero entero N, calcular e informar al usuario cuÃ¡ntos dÃ­gitos tiene dicho nÃºmero.
 	//ent. numero entero , c 
 	
 	//pro: mientras n <> 0 Hacer n <- trunc(n / 10) _ (c <- c + 1 )
@@ -461,7 +461,7 @@ funcion ejercicio13(0)
 FinFuncion
 
 Funcion ejercicio14(0)
-	//Dado un número, determine si es capicúa
+	//Dado un nÃºmero, determine si es capicÃºa
 	//ent: num , aux , num_inv Como Entero
 	//pro: aux<- num  ; num_inv<-0 ; mientras aux>0 num_inv<- num_inv + aux mod 10 ;num_inv<- num_inv * 10
 	//aux<- trunc(aux/10) ; num_inv<-num_inv/10 si num = num_inv entonces es capicua caso contrario NO
@@ -533,7 +533,7 @@ FinFuncion
 //sal: presentar la cantidad de divisores del numero 
 Funcion  ejercicio17(0)
     Definir n, c, i Como Entero
-    Escribir "Ingrese un número:"
+    Escribir "Ingrese un nÃºmero:"
     Leer n
     c <- 0
     Para i <- 1 Hasta n Hacer
@@ -541,14 +541,14 @@ Funcion  ejercicio17(0)
             c <- c + 1
         FinSi
     FinPara
-    Escribir "El número ", n, " tiene ", c, " divisores."
+    Escribir "El nÃºmero ", n, " tiene ", c, " divisores."
 	Esperar Tecla	
 FinFuncion
 
 funcion ejercicio18(0)
-	//) Escribir un algoritmo que indique si un número es perfecto
-	//Nota: un número es perfecto cuando la suma de los divisores del número incluido el 1 y
-	//excluido el propio número es igual al numero
+	//) Escribir un algoritmo que indique si un nÃºmero es perfecto
+	//Nota: un nÃºmero es perfecto cuando la suma de los divisores del nÃºmero incluido el 1 y
+	//excluido el propio nÃºmero es igual al numero
 	//Ejemplo: numero=6: los divisores del 6 son: 1+2+3=6
 	//ent: numero , x , perfecto 
 	//pro: x=2 ; 	mientras x <= n Hacer si n mod x == 0 Entonces (perfecto = perfecto + (n/x)) _ x=x+1 
@@ -575,8 +575,8 @@ funcion ejercicio18(0)
 FinFuncion
 
 funcion ejercicio19(0)
-	// Dado un número N determinar si es un número primo.
-	//Nota: Un número primo es aquel que solo es divisible por 1(uno) y por el mismo.
+	// Dado un nÃºmero N determinar si es un nÃºmero primo.
+	//Nota: Un nÃºmero primo es aquel que solo es divisible por 1(uno) y por el mismo.
 	//ent: numero para verificar si es primo 
 	//pro: (cont <- 0) ; para i <- 1 Hasta num Con Paso 1 Hacer si num mod i = 0 Entonces (cont = cont + 1) 
 	//si cont = 2 entonces si es un numero primo , caso contrario no;
@@ -601,7 +601,7 @@ FinFuncion
 
 
 Funcion ejercicio20(0)
-	//Dado dos números determinar si son primos gemelos.
+	//Dado dos nÃºmeros determinar si son primos gemelos.
 	//ent:  x , n ,n2,  contador Como Entero; x=  1 ;contador = 0 
 	//pro: mientras x <= n Hacer si n mod x == 0 Entonces contador = contador+1 FinSi
 	//x=x+1
@@ -630,8 +630,8 @@ FinFuncion
 
 
 Funcion ejercicio21(0)
-	//Dado dos números determinar si son primos amigos.
-    //Nota: Dos números son primos amigos si las sumas de los divisores del numero1 es igual a la 
+	//Dado dos nÃºmeros determinar si son primos amigos.
+    //Nota: Dos nÃºmeros son primos amigos si las sumas de los divisores del numero1 es igual a la 
 	//suma de los divisores del numero2. Ejemplo: 6(1+2+3=6) y 25(1+5=6)
     //ent:  a,b,sumas1,suma2,i,j Como Entero
 	//pro:i=1 ; sumas1=0 Mientras i < a Hacer si a mod i == 0 Entonces sumas1= sumas1 + i  (i = i + 1)
@@ -669,7 +669,7 @@ FinFuncion
 
 //arreglos y cadenas
 
-funcion ejercicio01(n)
+//funcion ejercicio01(n)
 //	Dada n realizar un algoritmo que presente la siguiente secuencia
 //	1) Dada n realizar un algoritmo que presente la siguiente secuencia
 //		n=6
@@ -677,23 +677,40 @@ funcion ejercicio01(n)
 	//ent:  n, a,b,i,c Como Entero 
 	//pro:  a <- 2 ; b <- 2 ;   Para i <- 3 Hasta n Con Paso 1 Hacer c <- a * b escribir c ; a<-b ; b<-c 
 	//sal: presentar secuencia 
-	Definir  a,b,i,c Como Entero
+	//Definir  a,b,i,c Como Entero
     
-    a <- 2
-    b <- 2
-    Escribir a
-    Escribir b
-    Para i <- 3 Hasta n Con Paso 1 Hacer
-        c <- a * b
-        Escribir c
-        a <- b
-        b <- c
+    //a <- 2
+    //b <- 2
+    //Escribir a
+    //Escribir b
+    //Para i <- 3 Hasta n Con Paso 1 Hacer
+        //c <- a * b
+        //Escribir c
+        //a <- b
+      //  b <- c
+    //FinPara
+	//Esperar Tecla	
+//FinFuncion
+
+Funcion ejercicio01(n) 
+	Definir i Como Entero
+	Definir secuencia Como Entero
+    Dimension secuencia[7]
+	secuencia[1] = 2
+    secuencia[2] = 2
+    secuencia[3] = 4
+    secuencia[4] = 8
+    secuencia[5] = 32
+    secuencia[6] = 256
+	n=6
+    Escribir "La secuencia es:"
+    Para i = 1 Hasta 6 Con Paso 1 Hacer
+        Escribir secuencia[i] " "
     FinPara
-	Esperar Tecla	
 FinFuncion
 
 //2) Implementa un programa que calcule el promedio de los elementos pares e impares en un 
-//arreglo de números enteros y los copie en otro arreglo.
+//arreglo de nÃºmeros enteros y los copie en otro arreglo.
 //ent: Definir n, i, spa, sim, cpa, cim Como Entero ;Definir arreglo, apa, aim Como Entero
 //Dimension  arreglo[100], apa[100], aim[100] ; cpa =0; cim=0;spa=0; sim=0
 //pro: Para i = 1 Hasta n Con Paso 1 Hacer Escribir "Ingrese el elemento ", i, " del arreglo: " Leer arreglo[i]
@@ -743,31 +760,47 @@ FinFuncion
 //Para i <- 1 Hasta n Con Paso 1 Hacer Escribir secuencia[i]
 //sal : Escribir secuencia[i]
 
-Funcion ejercicio03(0)
-    Definir n ,i Como Entero
-    Escribir "Ingrese el valor de n:"
-    Leer n
-    Definir secuencia Como Entero
-	Dimension secuencia[100] 
-    secuencia[1] <- 20
-    secuencia[2] <- 5
-    Para i <- 3 Hasta n-1 Con Paso 1 Hacer
-        secuencia[i] <- secuencia[i - 1] - 5
-    FinPara
-    secuencia[n] <- 0
-    Para i <- 1 Hasta n Con Paso 1 Hacer
-        Escribir secuencia[i]
+//Funcion ejercicio03(0)
+    //Definir n ,i Como Entero
+   // Escribir "Ingrese el valor de n:"
+    //Leer n
+    //Definir secuencia Como Entero
+	//Dimension secuencia[100] 
+    //secuencia[1] <- 20
+  //  secuencia[2] <- 5
+    //Para i <- 3 Hasta n-1 Con Paso 1 Hacer
+      //  secuencia[i] <- secuencia[i - 1] - 5
+    //FinPara
+    //secuencia[n] <- 0
+    //Para i <- 1 Hasta n Con Paso 1 Hacer
+    //    Escribir secuencia[i]
+  //  FinPara
+//FinFuncion
+
+Funcion ejercicio03(0)  
+	Definir n, i Como Entero
+	Definir secuencia Como Entero
+    Dimension secuencia[9]
+	secuencia[1] = 20
+    secuencia[2] = 5
+    secuencia[3] = 15
+    secuencia[4] = 10
+    secuencia[5] = 5
+    secuencia[6] = -5
+	secuencia[7] = 0
+	 n=6
+    Escribir "La secuencia es:"
+    Para i = 1 Hasta 7 Con Paso 1 Hacer
+        Escribir secuencia[i] " "
     FinPara
 FinFuncion
 
-
-
 Funcion ejercicio04(0)
-	//4) Implementa un programa que copie los números de un arreglo a 2 arreglos en uno los 
-	//números positivos y en el otro los negativos Ejemplo:
+	//4) Implementa un programa que copie los nÃºmeros de un arreglo a 2 arreglos en uno los 
+	//nÃºmeros positivos y en el otro los negativos Ejemplo:
 //	arreglo=[2,-6,4,-9, 12] arregloPositivo=[2,4,12] arregloNegativo[-6,-9]
 	//ent: arrO,arrNe como entero ;  i,k,n como entero ; i=0;k=0 ;  Dimension arrNE[100] 
-	//pro:  Para i<-0 Hasta n-1 Con Paso 1 Hacer Escribir "Ingresa el número ", i Leer arrO[i] ;  Para i<-0 Hasta n-1 Con Paso 1 Hacer
+	//pro:  Para i<-0 Hasta n-1 Con Paso 1 Hacer Escribir "Ingresa el nÃºmero ", i Leer arrO[i] ;  Para i<-0 Hasta n-1 Con Paso 1 Hacer
 	//Si arrO[i] <= 0 Entonces k <- k + 1 arrNe[k] <- arrO[i] ; negativos (Para i<-1 Hasta k Con Paso 1 Hacer Escribir arrNe[i])
 	//sal: presentar numeros positivos y negativos 
 	Definir arrO,arrNe como entero
@@ -775,12 +808,12 @@ Funcion ejercicio04(0)
     i=0;k=0
     
     Dimension arrNE[100]
-    Escribir "Ingresa el número "
+    Escribir "Ingresa el nÃºmero "
 	leer n
 	Dimension arrO[n]
 	
     Para i<-0 Hasta n-1 Con Paso 1 Hacer
-        Escribir "Ingresa el número ", i
+        Escribir "Ingresa el nÃºmero ", i
         Leer arrO[i]
     FinPara
     
@@ -792,7 +825,7 @@ Funcion ejercicio04(0)
         FinSi
     FinPara
     
-    Escribir "Arreglo de números negativos:"
+    Escribir "Arreglo de nÃºmeros negativos:"
     Para i<-1 Hasta k Con Paso 1 Hacer
         Escribir arrNe[i]
     FinPara
@@ -800,8 +833,8 @@ Funcion ejercicio04(0)
 FinFuncion
 
 
-// 5)Leer una secuencia de números hasta que se ingrese un numero negativo.
-//Mostrar la suma de los pares y la cantidad de los números que son múltiplo de 3
+// 5)Leer una secuencia de nÃºmeros hasta que se ingrese un numero negativo.
+//Mostrar la suma de los pares y la cantidad de los nÃºmeros que son mÃºltiplo de 3
 //Ejemplo:
 //secuencia: 4,14,3,0,21,2,-4
 //Respuesta
@@ -817,7 +850,7 @@ Funcion ejercicio05(0)
 	Definir n, supa, cm3 Como Entero
 	supa <- 0
 	cm3 <- 0
-	Escribir "Ingrese una secuencia de números. Ingrese un número negativo para terminar."
+	Escribir "Ingrese una secuencia de nÃºmeros. Ingrese un nÃºmero negativo para terminar."
 	Leer n
 	Mientras n >= 0 Hacer
 		Si n % 2 = 0 Entonces
@@ -828,14 +861,14 @@ Funcion ejercicio05(0)
 		FinSi
 		Leer n
 	FinMientras
-	Escribir "La suma de los números pares es: ", supa
-	Escribir "La cantidad de números que son múltiplos de 3 es: ", cm3
+	Escribir "La suma de los nÃºmeros pares es: ", supa
+	Escribir "La cantidad de nÃºmeros que son mÃºltiplos de 3 es: ", cm3
 	Esperar Tecla	
 FinFuncion
 
 
 
-// 6)Leer una secuencia de números hasta que se ingrese un 0
+// 6)Leer una secuencia de nÃºmeros hasta que se ingrese un 0
 //y almacenarlos en un arreglo
 //Se pide recorrer el arreglo y mostrar la suma del cuadrado de cada numero.
 //Ejemplo: secuencia: 4,3,2,5,0
@@ -843,7 +876,7 @@ FinFuncion
 //exponentes= 16 9 4 25
 //respuestaSuma=54
 // emt:i, num, suma, respuestaSuma, x Como Entero; arreglo Como Enteroi = 0 num = 1; respuestaSuma=0 ; Dimension arreglo[100]
-//pro:   Mientras num <> 0 Hacer Escribir "Ingrese un número (0 para terminar): " Leer num arreglo[i] = num i = i + 1
+//pro:   Mientras num <> 0 Hacer Escribir "Ingrese un nÃºmero (0 para terminar): " Leer num arreglo[i] = num i = i + 1
 //i = 0 suma = 0 escribir "Elevados al cuadrado"  Mientras arreglo[i] <> 0 Hacer	x=arreglo[i] * arreglo[i]	respuestaSuma = respuestaSuma + x
 //i = i + 1 Escribir ":", x ; 
 //sal: mostrar suma de los cuadrados de los numeros ingresados 
@@ -854,7 +887,7 @@ Funcion ejercicio06(0)
     num = 1; respuestaSuma=0
 	Dimension arreglo[100]
     Mientras num <> 0 Hacer
-        Escribir "Ingrese un número (0 para terminar): "
+        Escribir "Ingrese un nÃºmero (0 para terminar): "
         Leer num
         arreglo[i] = num
         i = i + 1
@@ -869,13 +902,13 @@ Funcion ejercicio06(0)
 		Escribir ":", x
     FinMientras
 	
-    Escribir "La suma de los cuadrados de los números ingresados es: ", respuestaSuma 
+    Escribir "La suma de los cuadrados de los nÃºmeros ingresados es: ", respuestaSuma 
 	Esperar Tecla	
 FinFuncion
 
 
-//Leer una secuencia de números hasta que se ingrese un numero par.
-//Mostrar la cantidad de los números mayores a 5 y la suma de los múltiplos de 5
+//Leer una secuencia de nÃºmeros hasta que se ingrese un numero par.
+//Mostrar la cantidad de los nÃºmeros mayores a 5 y la suma de los mÃºltiplos de 5
 //Ejemplo:
 //secuencia: 3,5,15,7,9, 4
 //Respuesta
@@ -884,13 +917,13 @@ FinFuncion
 //ent: n,cM5,sM5  Como Entero ;n=0; cM5 <- 0; sM5 <- 0
 //pro:  Mientras (n Mod 2 <> 0) Hacer Leer n ; Si (n > 5) Entonces cM5 <- cM5 + 1 FinSi
 //Si (n Mod 5 = 0) Entonces sM5 <- sM5 + n
-//sal: cantidad de numeros mayores a 5 ; Suma de los múltiplos de 5
+//sal: cantidad de numeros mayores a 5 ; Suma de los mÃºltiplos de 5
 funcion ejercicio07(0)
     Definir n,cM5,sM5  Como Entero
 	n=0
     cM5 <- 0
     sM5 <- 0
-    Escribir "Ingrese una secuencia de números(Terminara si el numero es par):"
+    Escribir "Ingrese una secuencia de nÃºmeros(Terminara si el numero es par):"
 	leer n
     Mientras (n Mod 2 <> 0) Hacer
         Leer n
@@ -901,8 +934,8 @@ funcion ejercicio07(0)
             sM5 <- sM5 + n
         FinSi
     FinMientras
-    Escribir "Cantidad de números mayores a 5: ", cM5
-    Escribir "Suma de los múltiplos de 5: ", sM5
+    Escribir "Cantidad de nÃºmeros mayores a 5: ", cM5
+    Escribir "Suma de los mÃºltiplos de 5: ", sM5
 	Esperar Tecla	
 FinFuncion
 
@@ -911,9 +944,9 @@ FinFuncion
 
 
 
-//8) Leer una secuencia de números hasta que se ingrese un numero negativo
+//8) Leer una secuencia de nÃºmeros hasta que se ingrese un numero negativo
 //y almacenarlos en un arreglo
-//Se pide recorrer el arreglo y mostrar la suma de cada número elevado al cubo.
+//Se pide recorrer el arreglo y mostrar la suma de cada nÃºmero elevado al cubo.
 //Ejemplo: secuencia: 4,3,2,5,-1
 //arreglo=[4,3,2,5]
 //exponentes= 64 27 8 125
@@ -928,7 +961,7 @@ Funcion ejercicio08(0)
 	Dimension arreglo[100]
     i = 0
     suma = 0
-    escribir "Ingrese un número: "
+    escribir "Ingrese un nÃºmero: "
 	leer num
     Mientras num >= 0 Hacer
 		
@@ -936,11 +969,11 @@ Funcion ejercicio08(0)
         expo = arreglo[i]^3
         suma = suma + expo
         i = i + 1
-        escribir "Ingrese un número: "
+        escribir "Ingrese un nÃºmero: "
 		leer num
 		
     FinMientras
-    Escribir"La suma de cada número elevado al cubo es: ", suma
+    Escribir"La suma de cada nÃºmero elevado al cubo es: ", suma
 	Esperar Tecla	
 FinFuncion
 
@@ -968,7 +1001,7 @@ Funcion ejercicio09(pa)
 	Esperar Tecla	
 FinFuncion
 
-//10) Leer una secuencia de números hasta que se ingrese un numero negativo
+//10) Leer una secuencia de nÃºmeros hasta que se ingrese un numero negativo
 //y almacenarlos en arreglo. Se pide recorrer el arreglo y cambiar cada
 //elemento del arreglo por su doble.
 //Ejemplo: secuencia: 4,3,6,9,-1
@@ -980,7 +1013,7 @@ FinFuncion
 
 Funcion ejercicio010(0)
     Definir a1,a2,i,j,k como entero
-    Escribir "Ingrese una secuencia de números, finalice con 0"
+    Escribir "Ingrese una secuencia de nÃºmeros, finalice con 0"
     i = 1
 	Dimension a1[100],a2[100]
     Leer a1[i]
@@ -996,7 +1029,7 @@ Funcion ejercicio010(0)
 		a2[j] = a1[k]*2
 		j = j + 1
     FinPara
-    Escribir "Los números pares son:"
+    Escribir "Los nÃºmeros pares son:"
     Para k = 1 Hasta j-1 Con Paso 1 Hacer
         Escribir a2[k]
     FinPara
@@ -1006,13 +1039,13 @@ FinFuncion
 
 
 //11) Leer una secuencia de caracteres hasta que se ingrese un punto.
-//Deberá mostrar cuantos "x" se ingresaron
+//DeberÃ¡ mostrar cuantos "x" se ingresaron
 //Ejemplo:
 //	secuencia="axyrx".
 //	contX= 2
 //ent: secuencia Como Caracter; contX, i, x Como Entero ;x=0 ;contX = 0
 // Para i = 0 Hasta Longitud(secuencia) Hacer Si Subcadena(secuencia, i,i) = "x" Entonces contX = contX + 1
-//sal: Escribir "Se ingresaron ", contX, " veces el carácter x."
+//sal: Escribir "Se ingresaron ", contX, " veces el carÃ¡cter x."
 Funcion ejercicio011(secuencia) 
 	
     Definir contX, i, x Como Entero
@@ -1025,13 +1058,13 @@ Funcion ejercicio011(secuencia)
         FinSi
     FinPara
     
-    Escribir "Se ingresaron ", contX, " veces el carácter x."
+    Escribir "Se ingresaron ", contX, " veces el carÃ¡cter x."
 	Esperar Tecla	
 FinFuncion
 
-// 12)Leer una secuencia de números hasta que se ingrese un 0
+// 12)Leer una secuencia de nÃºmeros hasta que se ingrese un 0
 //y almacenarlos en arreglo. Se pide recorrer el arreglo y pasar a otro
-//arreglo solo los números pares de cada elemento del arreglo1
+//arreglo solo los nÃºmeros pares de cada elemento del arreglo1
 //Ejemplo: secuencia: 4,3,6,9,0
 //arreglo1=[4,3,6,9] arreglo2= [4,6]
 //ent: a1,a2,i,j,k como entero ;  i = 1 ;Dimension a1[100],a2[100]
@@ -1041,7 +1074,7 @@ FinFuncion
 
 Funcion ejercicio012(0)
     Definir a1,a2,i,j,k como entero
-    Escribir "Ingrese una secuencia de números, finalice con 0"
+    Escribir "Ingrese una secuencia de nÃºmeros, finalice con 0"
     i = 1
 	Dimension a1[100],a2[100]
     Leer a1[i]
@@ -1057,7 +1090,7 @@ Funcion ejercicio012(0)
             j = j + 1
         FinSi
     FinPara
-    Escribir "Los números pares son:"
+    Escribir "Los nÃºmeros pares son:"
     Para k = 1 Hasta j-1 Con Paso 1 Hacer
         Escribir a2[k]
     FinPara
@@ -1065,7 +1098,7 @@ Funcion ejercicio012(0)
 FinFuncion
 
 
-//13) Dado dos números presentar los valores mayores a 5 entre ellos incluidos el numero inicial  
+//13) Dado dos nÃºmeros presentar los valores mayores a 5 entre ellos incluidos el numero inicial  
 //y final
 //ent: n1 ; n2 
 //pro:definir i  como entero; Para i<-n1 Hasta n2 Con Paso 1 Hacer Si i > 5 Entonces Escribir i
@@ -1073,7 +1106,7 @@ FinFuncion
 funcion NumerosMayoresA5(n1,n2)
 	definir i  como entero
 	
-    Escribir "Los números mayores a 5 entre ", n1, " y ", n2, " son:"
+    Escribir "Los nÃºmeros mayores a 5 entre ", n1, " y ", n2, " son:"
     Para i<-n1 Hasta n2 Con Paso 1 Hacer
         Si i > 5 Entonces
             Escribir i
@@ -1084,9 +1117,9 @@ FinFuncion
 
 //14) Elaborar un algoritmo que lea una serie de edades de los alumnos de la facultad FACI y 
 //los guarde en un arreglo. Se pide:
-//	· calcular el promedio general de las edades de los alumnos
-//	· La cantidad y el promedio de las edades mayores o iguales a 18
-//	· La cantidad y el promedio de las edades menores a 18
+//	Â· calcular el promedio general de las edades de los alumnos
+//	Â· La cantidad y el promedio de las edades mayores o iguales a 18
+//	Â· La cantidad y el promedio de las edades menores a 18
 //ent:  n, i, su, pro, ma, me, pma,pme como real ; (ma=0; me=0;pma=0; pme=0) ; arreglo como Entero
 //pro: Dimension arreglo[n] ;   Para i = 0 Hasta n-1 Con Paso 1 Hacer   su = su + arreglo[i] Si arreglo[i]>=18 Entonces
 //pma=pma+arreglo[i] ma=ma+1 ; SiNo pme=pme+arreglo[i] me=me+1; pro=su/n ;pma=pma/ma ; pme=pme/me
@@ -1100,7 +1133,7 @@ Funcion edades(0)
 	Dimension arreglo[n]
     su = 0
     Para i = 0 Hasta n-1 Con Paso 1 Hacer
-        Escribir "Ingrese el número ", i+1, ": "
+        Escribir "Ingrese el nÃºmero ", i+1, ": "
         Leer arreglo[i]
         su = su + arreglo[i]
 		Si arreglo[i]>=18 Entonces
@@ -1121,7 +1154,7 @@ Funcion edades(0)
 	Esperar Tecla	
 FinFuncion
 
-//15) Dado dos números presentar los valores Impares comprendidos entre ellos(excluidos el 
+//15) Dado dos nÃºmeros presentar los valores Impares comprendidos entre ellos(excluidos el 
 //valor inicial y final)
 //Ejemplo: numero1=2 numero2=11
 //salida: 3 5 7 9
@@ -1154,8 +1187,8 @@ FinFuncion
 
 //16) Elaborar un algoritmo que lea una serie de sueldos de los empleados de la unemi y los 
 //guarde en un arreglo. Se pide:
-//	· Presentar el sueldo más alto de los empleados
-//	· La cantidad y el promedio de os sueldos de los empleados
+//	Â· Presentar el sueldo mÃ¡s alto de los empleados
+//	Â· La cantidad y el promedio de os sueldos de los empleados
 //ent: su, to, ma, pro, n,i,x Como real ; ma=0;x=0 ; Dimension su[n]
 //pro: para i<- 0 Hasta n-1 Con Paso 1 Hacer  Escribir "Ingrese los sueldos: "Leer su[i] Si su[i]>ma Entonces (ma=su[i]) ;x=x+su[i];pro= x/n
 //sal: cantidad de sueldos ; el sueldo mayor ; el promedio de los sueldos ingresados 
@@ -1246,7 +1279,7 @@ Funcion Contarpuntos(frase)
 	Esperar Tecla	
 FinFuncion
 
-//19) Dado una cadena indicar cuantas vocales, consonantes y dígitos hay"
+//19) Dado una cadena indicar cuantas vocales, consonantes y dÃ­gitos hay"
 //ent:  frase Como Caracter ;  i, x, z, c, d Como Entero ; i=0 ; x=0; c=0; d=0
 //pro: frase =Minusculas(frase) ;x=Longitud(frase)-1 ;z=0 ; Mientras x>=z Hacer Segun SubCadena(frase,z,z) Hacer
 //"a":i=i+1
@@ -1308,7 +1341,7 @@ Funcion contarPalabras(frase)
 	Esperar Tecla	
 FinFuncion
 
-//21) Presentar la suma de los dígitos de una cedula"
+//21) Presentar la suma de los dÃ­gitos de una cedula"
 //ent:  cedula Como Entero; digitos Como Entero; Dimension digitos[11] ;  i, suma Como Entero (i=0)
 //pro: ingresar cedula (leer) ; Para i <- 1 Hasta 10 Con Paso 1 Hacer digitos[i] <- cedula MOD 10 cedula <- (cedula - digitos[i]) / 10
 //suma <- 0 Para i <- 1 Hasta 10 Con Paso 1 Hacer suma <- suma + digitos[i]
@@ -1330,12 +1363,12 @@ Funcion sumarDigitos(cedula)
 		suma <- suma + digitos[i]
 	FinPara
 	
-	Escribir "La suma de los dígitos de su cédula es:", suma
+	Escribir "La suma de los dÃ­gitos de su cÃ©dula es:", suma
 	
 	Esperar Tecla	
 FinFuncion
 
-//22) Indicar si una palabra es palíndroma". Ejemplo: "ana" es palíndroma por se lee igual de 
+//22) Indicar si una palabra es palÃ­ndroma". Ejemplo: "ana" es palÃ­ndroma por se lee igual de 
 //	inicio a fin que de fin a inicio
 //ent: palabra, inversa Como Cadena;  i, long Como Entero
 //pro: leer palabra ; long <- Longitud(palabra) inversa="" ;  Para i <- long hasta -1 hacer inversa <- concatenar(inversa, Subcadena(palabra, i, i))
@@ -1353,15 +1386,15 @@ Funcion polindromo(palabra)
     Fin Para
 	
     Si palabra = inversa entonces
-        Escribir "La palabra ",palabra, " es palíndromo."
+        Escribir "La palabra ",palabra, " es palÃ­ndromo."
     Sino
-        Escribir "La palabra ",palabra, " no es palíndromo."
+        Escribir "La palabra ",palabra, " no es palÃ­ndromo."
     Fin Si	
 	
 	Esperar Tecla	
 FinFuncion
 
-//	23) Presentar la posición de un carácter cualquiera dentro de una cadena
+//	23) Presentar la posiciÃ³n de un carÃ¡cter cualquiera dentro de una cadena
 //ent: frase,x como cadena  ;  esp, i, can como entero  ; esp=0; i=0;can=0
 //pro: can=Longitud(frase) Para i<- 0 Hasta can-1 Con Paso 1 Hacer si Subcadena(frase,i,i)=x Entonces esp=i
 //sal: posicion del carater 
@@ -1396,7 +1429,7 @@ Algoritmo Proyecto
 		escribir "3)Operaciones con Cadenas"
 		escribir "4)Operaciones con Arreglos"
 		escribir "5) Salir"
-		Escribir "       Elija opció[1...4,]" Sin Saltar
+		Escribir "       Elija opciÃ³[1...4,]" Sin Saltar
 		leer opcio
 		Borrar Pantalla
 		segun opcio
@@ -1404,26 +1437,26 @@ Algoritmo Proyecto
 				mientras opc1 <> '13' hacer	
 					escribir "----------Ejercicios con Numeros----------"
 					Escribir  "1) Distribuidora de colas"
-					Escribir " 2) La asociación de vinicultores de uvas"
+					Escribir " 2) La asociaciÃ³n de vinicultores de uvas"
 					Escribir " 3) Obtener el residuo sin el operador mod"
 					Escribir " 4) Consultorio del Dr. Paez"
-					Escribir " 5) Lea cuatro números y si el numero 1 es la mitad del número 2; Y si el numero 3 es divisor del numero 4"	
+					Escribir " 5) Lea cuatro nÃºmeros y si el numero 1 es la mitad del nÃºmero 2; Y si el numero 3 es divisor del numero 4"	
 					Escribir " 6) Banco XYZ"
-					Escribir " 7) Lea cuatro números y determine si el numero 1 es divisor del numero 3 Y si el numero 2 es el doble del numero4"
+					Escribir " 7) Lea cuatro nÃºmeros y determine si el numero 1 es divisor del numero 3 Y si el numero 2 es el doble del numero4"
 					Escribir " 8)Banco POO"
-					Escribir " 9)Pedir al usuario un número y mostrar si es negativo menor que -20, sino mostrar si es positivo par o impar múltiplo de 7"
-					Escribir "10)La asociación de vinicultores de pitajaya"
-					Escribir "11)Pedir al usuario un número y mostrar si es par menor que 10, sino mostrar si es negativo e impar o negativo divisible para 5."
-					Escribir "12)Fábricas El cometa" 
+					Escribir " 9)Pedir al usuario un nÃºmero y mostrar si es negativo menor que -20, sino mostrar si es positivo par o impar mÃºltiplo de 7"
+					Escribir "10)La asociaciÃ³n de vinicultores de pitajaya"
+					Escribir "11)Pedir al usuario un nÃºmero y mostrar si es par menor que 10, sino mostrar si es negativo e impar o negativo divisible para 5."
+					Escribir "12)FÃ¡bricas El cometa" 
 					Escribir "13) salir" 
-					Escribir "       Elija opció[1...13,]" Sin Saltar
+					Escribir "       Elija opciÃ³[1...13,]" Sin Saltar
 					leer opc1
 					Borrar Pantalla
 					segun opc1
 						"1":Escribir  "1) Distribuidora de colas"
 							ejercicio1(0)
 							
-						"2":Escribir " 2) La asociación de vinicultores de uvas"
+						"2":Escribir " 2) La asociaciÃ³n de vinicultores de uvas"
 							ejercicio2(0)
 							
 						"3":Escribir " 3) Obtener el residuo sin el operador mod"
@@ -1432,28 +1465,28 @@ Algoritmo Proyecto
 						"4":Escribir " 4) Consultorio del Dr. Paez"
 							ejercicio4(0)
 							
-						"5":Escribir " 5) Lea cuatro números y si el numero 1 es la mitad del número 2; Y si el numero 3 es divisor del numero 4"
+						"5":Escribir " 5) Lea cuatro nÃºmeros y si el numero 1 es la mitad del nÃºmero 2; Y si el numero 3 es divisor del numero 4"
 							ejercicio5(0)
 							
 						"6":Escribir " 6) Banco XYZ"
 							ejercicio6(0)
 							
-						"7":Escribir " 7) Lea cuatro números y determine si el numero 1 es divisor del numero 3 Y si el numero 2 es el doble del numero4"
+						"7":Escribir " 7) Lea cuatro nÃºmeros y determine si el numero 1 es divisor del numero 3 Y si el numero 2 es el doble del numero4"
 							ejercicio7(0)
 							
 						"8":Escribir " 8)Banco POO"
 							ejercicio8(0)
 							
-						"9":Escribir " 9)Pedir al usuario un número y mostrar si es negativo menor que -20, sino mostrar si es positivo par o impar múltiplo de 7"
+						"9":Escribir " 9)Pedir al usuario un nÃºmero y mostrar si es negativo menor que -20, sino mostrar si es positivo par o impar mÃºltiplo de 7"
 							ejercicio9(0)
 							
-						"10":Escribir "10)La asociación de vinicultores de pitajaya"
+						"10":Escribir "10)La asociaciÃ³n de vinicultores de pitajaya"
 							ejercicio10(0)
 							
-						"11":Escribir "11)Pedir al usuario un número y mostrar si es par menor que 10, sino mostrar si es negativo e impar o negativo divisible para 5."
+						"11":Escribir "11)Pedir al usuario un nÃºmero y mostrar si es par menor que 10, sino mostrar si es negativo e impar o negativo divisible para 5."
 							ejercicio10(11)
 							
-						"12":Escribir "12)Fábricas El cometa" 
+						"12":Escribir "12)FÃ¡bricas El cometa" 
 							ejercicio12(0)
 						De Otro Modo:
 						"13":Escribir "13) Salir" 
@@ -1465,24 +1498,24 @@ Algoritmo Proyecto
 			"2":
 				mientras opc1 <> '10' hacer	
 					escribir "----------Operaciones con Numeros----------"
-					Escribir "1) Dado un número entero N, calcular e informar al usuario cuántos dígitos tiene dicho número."
-					Escribir "2) Determinar si un número es capicúa "
+					Escribir "1) Dado un nÃºmero entero N, calcular e informar al usuario cuÃ¡ntos dÃ­gitos tiene dicho nÃºmero."
+					Escribir "2) Determinar si un nÃºmero es capicÃºa "
 					Escribir "3) presente los divisores de un numero"
 					Escribir "4)presente la suma de los divisores de un numero"
 					Escribir "5)presente la cantidad de los divisores de un numero"
-					Escribir "6)indique si un número es perfecto"
-					Escribir "7)determinar si es un número primo"
+					Escribir "6)indique si un nÃºmero es perfecto"
+					Escribir "7)determinar si es un nÃºmero primo"
 					Escribir "8)determinar si son primos gemelo"
 					Escribir "9)determinar si son primos amigos."
 					Escribir "10) salir" 
-					Escribir "       Elija opció[1...10,]" Sin Saltar
+					Escribir "       Elija opciÃ³[1...10,]" Sin Saltar
 					leer opc1
 					Borrar Pantalla
 					Segun opc1 Hacer
-						"1":Escribir"1) Dado un número entero N, calcular e informar al usuario cuántos dígitos tiene dicho número."
+						"1":Escribir"1) Dado un nÃºmero entero N, calcular e informar al usuario cuÃ¡ntos dÃ­gitos tiene dicho nÃºmero."
 							ejercicio13(0)
 							
-						"2":Escribir"2) Determinar si un número es capicúa "
+						"2":Escribir"2) Determinar si un nÃºmero es capicÃºa "
 							
 							ejercicio14(0)
 						"3":Escribir"3) Presente los divisores de un numero"
@@ -1494,10 +1527,10 @@ Algoritmo Proyecto
 						"5":Escribir"5) Presente la cantidad de los divisores de un numero"
 							
 							ejercicio17(0)
-						"6":Escribir"6) Indique si un número es perfecto"
+						"6":Escribir"6) Indique si un nÃºmero es perfecto"
 							ejercicio18(0)
 							
-						"7":Escribir"7) Determinar si es un número primo"
+						"7":Escribir"7) Determinar si es un nÃºmero primo"
 							ejercicio19(0)
 							
 						"8":Escribir"8) Determinar si son primos gemelo"
@@ -1516,27 +1549,27 @@ Algoritmo Proyecto
 		"3":
 			mientras opc1 <> '13' hacer	
 				escribir "----------Operaciones con Cadenas----------"
-			Escribir"1) Secuencia de números hasta que se ingrese un numero negativo"
-			Escribir"2) Secuencia de números hasta que se ingrese un numero par."
+			Escribir"1) Secuencia de nÃºmeros hasta que se ingrese un numero negativo"
+			Escribir"2) Secuencia de nÃºmeros hasta que se ingrese un numero par."
 			Escribir"3) Indicar cuantas palabras tiene una frase"
 			Escribir"4) Secuencia de caracteres hasta que se ingrese un punto."
-			Escribir"5) Dado dos números presentar los valores mayores a 5"
-			Escribir"6) Dado dos números presentar los valores Impares"
+			Escribir"5) Dado dos nÃºmeros presentar los valores mayores a 5"
+			Escribir"6) Dado dos nÃºmeros presentar los valores Impares"
 			Escribir"7) Dadas dos frase indicar la de mayor longitud"
 			Escribir"8) Indicar cuantas ,.;: hay en una cadena"
-			Escribir"9) Indicar cuantas vocales, consonantes y dígitos hay"
+			Escribir"9) Indicar cuantas vocales, consonantes y dÃ­gitos hay"
 			Escribir"10) Cuantas palabras hay en una frase contando los espacios"
-			Escribir"11) Palabra palíndroma"
-			Escribir"12) Posición de un carácter "
+			Escribir"11) Palabra palÃ­ndroma"
+			Escribir"12) PosiciÃ³n de un carÃ¡cter "
 			Escribir "13) salir" 
-				Escribir "       Elija opció[1...13,]" Sin Saltar
+				Escribir "       Elija opciÃ³[1...13,]" Sin Saltar
 				leer opc1
 				Borrar Pantalla
 				Segun opc1 Hacer
-					"1":Escribir"1) Secuencia de números hasta que se ingrese un numero negativo c"
+					"1":Escribir"1) Secuencia de nÃºmeros hasta que se ingrese un numero negativo c"
 						ejercicio08(0)
 						
-					"2":Escribir"2) Secuencia de números hasta que se ingrese un numero par."
+					"2":Escribir"2) Secuencia de nÃºmeros hasta que se ingrese un numero par."
 						ejercicio07(0)
 						
 					"3":Escribir"3) Indicar cuantas palabras tiene una frase"
@@ -1551,15 +1584,15 @@ Algoritmo Proyecto
 						Leer secuencia
 						ejercicio011(secuencia) 
 						
-					"5":Escribir"5) Dado dos números presentar los valores mayores a 5"
+					"5":Escribir"5) Dado dos nÃºmeros presentar los valores mayores a 5"
 						
 						definir n1, n2  como entero	
-						Escribir "Ingrese el primer número:"
+						Escribir "Ingrese el primer nÃºmero:"
 						Leer n1
-						Escribir "Ingrese el segundo número:"
+						Escribir "Ingrese el segundo nÃºmero:"
 						Leer n2
                          NumerosMayoresA5(n1,n2)
-					"6":Escribir"6) Dado dos números presentar los valores Impares"
+					"6":Escribir"6) Dado dos nÃºmeros presentar los valores Impares"
 						impare(0)
 						
 					"7":Escribir"7) Dadas dos frase indicar la de mayor longitud"
@@ -1577,7 +1610,7 @@ Algoritmo Proyecto
 						Leer frase
 						Contarpuntos(frase)
 						
-					"9":Escribir"9) Indicar cuantas vocales, consonantes y dígitos hay"
+					"9":Escribir"9) Indicar cuantas vocales, consonantes y dÃ­gitos hay"
 						definir frase Como Caracter
 						frase = ""
 						escribir "ingresa la frase : "
@@ -1590,13 +1623,13 @@ Algoritmo Proyecto
 						leer frase
 						contarPalabras(frase)
 						
-					"11":Escribir"11) Palabra palíndroma"
+					"11":Escribir"11) Palabra palÃ­ndroma"
 						Definir palabra Como Cadena
 						Escribir "Ingrese una palabra: "
 						Leer palabra
 						polindromo(palabra)
 						
-					"12":Escribir"12) Posición de un carácter "
+					"12":Escribir"12) PosiciÃ³n de un carÃ¡cter "
 						definir frase,x como cadena 
 						Escribir "Ingresa una frase: "
 						leer frase
@@ -1619,15 +1652,15 @@ Algoritmo Proyecto
 			Escribir"2) Presentar una secuencia "
 			Escribir"3) Calcular el promedio de num pares e impares"
 			Escribir"4) Separar arreglos en positivos y negativos "
-			Escribir"5) Secuencia de números hasta que se ingrese un 0"
-			Escribir"6) Secuencia de números hasta que se ingrese un numero negativo m3" 
-			Escribir"7) Secuencia de números hasta que se ingrese un numero negativo doble del arreglo"
-			Escribir"8) Secuencia de números hasta que se ingrese un 0 separar los pares"
+			Escribir"5) Secuencia de nÃºmeros hasta que se ingrese un 0"
+			Escribir"6) Secuencia de nÃºmeros hasta que se ingrese un numero negativo m3" 
+			Escribir"7) Secuencia de nÃºmeros hasta que se ingrese un numero negativo doble del arreglo"
+			Escribir"8) Secuencia de nÃºmeros hasta que se ingrese un 0 separar los pares"
 			Escribir"9) Serie  de edades de los alumnos de la facultad FACI"
 			Escribir"10) Serie de sueldos de los empleados de la unemi"
-			Escribir"11) Presentar la suma de los dígitos de una cedula"
+			Escribir"11) Presentar la suma de los dÃ­gitos de una cedula"
 			Escribir "12) salir" 
-				Escribir "       Elija opció[1...12,]" Sin Saltar
+				Escribir "       Elija opciÃ³[1...12,]" Sin Saltar
 				leer opc1
 				Borrar Pantalla
 				Segun opc1 Hacer
@@ -1646,16 +1679,16 @@ Algoritmo Proyecto
 					"4":Escribir"4) Separar arreglos en positivos y negativos "
 						ejercicio04(0)
 						
-					"5":Escribir"5) Secuencia de números hasta que se ingrese un 0"
+					"5":Escribir"5) Secuencia de nÃºmeros hasta que se ingrese un 0"
 						ejercicio06(0)
 						
-					"6":Escribir"6) Secuencia de números hasta que se ingrese un numero negativo m3" 
+					"6":Escribir"6) Secuencia de nÃºmeros hasta que se ingrese un numero negativo m3" 
 						ejercicio05(0) 
 						
-					"7":Escribir"7) Secuencia de números hasta que se ingrese un numero negativo doble del arreglo"
+					"7":Escribir"7) Secuencia de nÃºmeros hasta que se ingrese un numero negativo doble del arreglo"
 						ejercicio010(0)
 						
-					"8":Escribir"8) Secuencia de números hasta que se ingrese un 0 separar los pares"
+					"8":Escribir"8) Secuencia de nÃºmeros hasta que se ingrese un 0 separar los pares"
 						ejercicio012(0)
 						
 					"9":Escribir"9) Serie  de edades de los alumnos de la facultad FACI"
@@ -1664,9 +1697,9 @@ Algoritmo Proyecto
 					"10":Escribir"10) Serie de sueldos de los empleados de la unemi"
 						sueldos(0)
 						
-					"11":Escribir"11) Presentar la suma de los dígitos de una cedula"
+					"11":Escribir"11) Presentar la suma de los dÃ­gitos de una cedula"
 						Definir cedula Como Entero
-						Escribir "Ingrese su cédula:"
+						Escribir "Ingrese su cÃ©dula:"
 						Leer cedula
 						sumarDigitos(cedula)
 						
